@@ -2,12 +2,14 @@
 
 Adapter for [in.](https://github.com/nomilous/in.)
 
+This adapter is bundled with in.
+
 Divides inbound argument into lines.
 
 eg.
 
 ```javascript
-$$in(function(lines) { // in.as.lines read {{__filename}}
+$$in(function(lines) { // in.as.lines read README.md
   
 })
 ```
