@@ -1,0 +1,22 @@
+{
+  "name": "in.adapter.lines",
+  "version": "0.0.2",
+  "description": "Divides inbound argument into lines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomilous/in.adapter.lines.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomilous/in.adapter.lines/issues"
+  },
+  "homepage": "https://github.com/nomilous/in.adapter.lines#readme",
+  "keywords": [
+    "in.adapter"
+  ]
+}
