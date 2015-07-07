@@ -1,0 +1,17 @@
+{
+  "uuid": "241f1edf-673f-40f8-84b2-ac9cd1a52a1f",
+  "description": "pending description",
+  "repl": {
+    "listen": "/tmp/socket-241f1edf-673f-40f8-84b2-ac9cd1a52a1f"
+  },
+  "plugins": {
+    "objective_dev": {
+      "testDir": "test",
+      "testAppend": "_test",
+      "sourceDir": "lib",
+      "runAll": true,
+      "showTrace": false,
+      "filterTrace": false
+    }
+  }
+}
