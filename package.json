@@ -1,6 +1,6 @@
 {
   "name": "in.adapter.lines",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Divides inbound argument into lines.",
   "main": "index.js",
   "scripts": {

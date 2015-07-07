@@ -16,7 +16,7 @@ $$in(function(lines) { // in.as.lines read README.md
 
 
 ```javascript
-$$in(function(log) { // in.as.stream.lines $ tail -F /var/log/syslog
+$$in(function(log) { // in.as.stream.lines $ tail -Fn0 /var/log/syslog
   log.on('data', function(line) {
 
   });
