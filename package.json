@@ -18,5 +18,8 @@
   "homepage": "https://github.com/nomilous/in.adapter.lines#readme",
   "keywords": [
     "in.adapter"
-  ]
+  ],
+  "dependencies": {
+    "should": "^7.0.1"
+  }
 }

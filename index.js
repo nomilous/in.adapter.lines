@@ -1,6 +1,6 @@
 var EventEmitter = require('events').EventEmitter;
 
-$$in.adapters.lines = function(opts, inArgs, arg, results) {
+module.exports = $$in.adapters.lines = function(opts, inArgs, arg, results) {
 
   // all expansion results will have same adapters
   // only need check the first
@@ -14,12 +14,10 @@ $$in.adapters.lines = function(opts, inArgs, arg, results) {
     if (typeof action.value === 'undefined') return;
     if (isStream) return handleStream(action);
 
-    if (action.value.match(/\r\n/)) {
-      action.value = action.value.split(/\r\n/);
-      return;
-    }
+    if (action.value.match(/\r\n/)) action.value = action.value.split(/\r\n/);
+    else action.value = action.value.split(/\n/);
 
-    action.value = action.value.split(/\n/);
+    if (action.value[action.value.length - 1] == '') action.value.pop();
     return
   });
 }
@@ -62,6 +60,7 @@ function handleStream(action) {
       buf = lines.pop();
     } else {
       buf = '';
+      lines.pop()
     }
 
     lines.forEach(function(line) {
