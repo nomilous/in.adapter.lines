@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nomilous/in.adapter.lines.svg?branch=master)](https://travis-ci.org/nomilous/in.adapter.lines)
+
 # in.adapter.lines
 
 Adapter for [in.](https://github.com/nomilous/in.)
