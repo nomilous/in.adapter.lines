@@ -4,7 +4,7 @@
   "description": "Divides inbound argument into lines.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/objective --once"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
     "in.adapter"
   ],
   "dependencies": {
+    "should": "^7.0.1"
+  },
+  "devDependencies": {
+    "objective": "0.0.28",
     "should": "^7.0.1"
   }
 }
